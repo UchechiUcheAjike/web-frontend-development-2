@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 350px;
+            margin: 50px;
+        }
+
+        .container :nth-child(4), :nth-child(5), :nth-child(6){
+            border-bottom: black solid 2px;
+            border-top: black solid 2px;
+        }
+
+        .container :nth-child(2), :nth-child(5), :nth-child(8){
+            border-right: black solid 2px;
+            border-left: black solid 2px;
+        }
+
+
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="container"> 
+        <div class="box" id="1"></div>
+        <div class="box"  id="2">
+
+        </div>
+        <div class="box" id="3">
+
+        </div>
+        <div class="box" id="4">
+
+        </div>
+        <div class="box" id="5">
+
+        </div>
+        <div class="box" id="6">
+
+        </div>
+        <div class="box" id="7">
+
+        </div>
+        <div class="box" id="8">
+
+        </div>
+        <div class="box" id="9">
+
+        </div>
+    </div>
+</body>
+<script>
+    const getElement = document.getElementById("container")
+    getElement.addEventListener("click", () => {
+
+    })
+</script>
+
+</html>
