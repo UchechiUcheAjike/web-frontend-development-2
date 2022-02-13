@@ -1,0 +1,85 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    /* text-align: center; */
+}
+h1{
+    font-family: 'Merriweather', serif;
+}
+.wholeform{
+    background-color: plum;
+    width:fit-content
+}
+.formbody{
+    /* align: center; */
+    border-style: solid;
+    width:30em;
+    margin-bottom: 200px;
+}
+.taskbody{
+    border-style: solid;
+    width:30em;
+    height:15em;
+    margin-bottom: 200px;
+    
+}
+.todoheader{
+    text-align: center;
+}
+.tasks{
+    text-align: center;
+}
+   
+
+
+
+
+
+/* 
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+/* body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+} */
+/* html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+} */ */

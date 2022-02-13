@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+   background: #064635;
+
+   padding: 30px 40px;
+   color: white;
+   text-align: center;
+   border: none;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+#list{
+    margin: 15px auto 5px auto;
+    
+    height: 25rem;
+    width: 30rem;
+    padding: 10px;
+    align-content: center;
+
+}
+
+.task{
+    display: grid;
+    grid-template-columns: 50px 100px 30px;
+    margin-left: 6.5em;
+    margin-right: 6.5em;
+    padding:  5px;
+    text-align: center;
+    width:400px;
+    height: auto;
+    border-radius: 5px;
+}
+#footer  {
+    text-align: center;
+    word-spacing: 2px;
+}
+input[type="radio"] {
+    margin-right: 2px;
+}
+
+#input{
+    text-align: center;
+}
+label.container, div.taskname,button.taskremove{
+    display: inline;
+    align-content: center;
+}
+label.checkbox-container {
+    width: 45px;
+    height: 30px;
+}
+div.taskname{
+    font-size: 1em;
+    font-family: 'Acme', sans-serif;
+    padding: .3em;
+    text-align: center;
+    height: 32px;
+    width: 100px
+}
+button.taskremove{
+    margin-left: 10vh;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    width: 32px;
+    height: 32px;
+    float: right;
+    border-radius: 5px;
+}
+
+input {
+    width: auto;
+    margin-right: 0;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#add{
+    width: 5%;
+    height: 40px;
+    margin-top: 10px;
+    background: #064635;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#add:hover{
+    background: #557C55;
+
+}
+input[type="checkbox"] {
+    background-color: white;
+    border: 0.3px solid;
+    width: 32px;
+    height: 32px;
+	border-radius: 3px;
+    margin-right: 10px;
+    appearance: none;
+}
+input[type="checkbox"]:checked {
+	background-color:rgb(64, 130, 109) ;
+	color: #99a1a7;
+}
+input[type="checkbox"]:checked:after {
+    color: white;
+    width: 32px;
+    height: 32px;
+	content: '✔︎';
+	font-size: 18px;
+    position: relative;
+}
