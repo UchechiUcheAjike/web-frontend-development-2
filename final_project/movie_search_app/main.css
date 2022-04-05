@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root{
-    --md-dark-color: #1d1d1d;
-    --dark-color: #171717;
-    --light-dark-color: #292929;
-    --yellow-color: #d4aa11;
+    --md-dark-color: #703747;
+    --dark-color: #640E27;
+    --light-dark-color: #703747;
+    --yellow-color: black;
 }
 *{
     padding: 0;
@@ -71,6 +71,7 @@ img{
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+    border-radius:50%;
 }
 .search-element h3{
     -ms-flex-item-align: center;
@@ -81,7 +82,7 @@ img{
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
-.search-element .form-control{
+.search-element .form-control:hover{
     padding: 1rem 2rem;
     font-size: 1.4rem;
     border: none;
@@ -90,6 +91,8 @@ img{
     outline: none;
     color: var(--light-dark-color);
     width: 350px;
+    height: 150px;
+    border-radius:50%;
 }
 .search-list{
     position: absolute;
@@ -232,6 +235,7 @@ img{
 @media(max-width: 450px){
     .logo p{
         font-size: 1.4rem;
+        
     }
     .search-element .form-control{
         width: 90%;
